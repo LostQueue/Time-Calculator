@@ -1,0 +1,36 @@
+import unittest 
+from time_calculator import add_time
+
+
+
+sec = 60
+min = sec * 60
+hours = min * 60
+AM = 12 * hour
+PM = 12 * hour
+if AM > 12: 
+    print(PM)
+day = AM + PM
+next_day = 172800
+start = day
+
+
+
+def add_time(start, duration):
+    new_time = ' '
+
+duration + start
+
+if new_time < day:
+    print(new_time)
+  elif new_time > day:
+    print (new_time + (next_day))
+  elif new_time > new_day:
+    print(new_time +(n days later))
+
+  return new_time
+
+    
+main(module='test_module', exit=False)
+
+return new_time
